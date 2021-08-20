@@ -1,0 +1,84 @@
+#ana-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#denemefoto{
+    height: 200px;
+}
+
+#takimOlustur{
+    margin-top:2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40rem;
+    height: 55rem;
+    border: 0.2rem solid green;
+    border-radius: 1rem;
+}
+
+#fotos{
+    width: 30rem;
+}
+
+.inputItem{
+    width: 30rem;
+    padding:0.5rem;
+    font-size:1.4rem;
+}
+
+.yanyana{
+    display: flex;
+    flex-direction: row;
+}
+.ortala{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.itemmt2{
+    width: 30rem;
+    padding:0.5rem;
+    font-size:1.8rem;
+}
+.itemmt2 input[type="checkbox"]{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.itemmt2 input[type="radio"]{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+#takimbutton{
+    width: 30rem;
+    padding:0.6rem;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+
+.yan-yana{
+    display: flex;
+    flex-direction: column;
+    margin-top:0.6rem;
+}
+
+.canselButton{
+    margin-top:0.6rem;
+    display: inline-block;
+    width: 30rem;
+    padding:0.6rem;
+    font-size:1.5rem;
+    color:black;
+    text-align: center;
+    border:0.1rem solid black;
+}
+
+.canselButton:hover{
+    background-color:#e5e5e5 ;
+}

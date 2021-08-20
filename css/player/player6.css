@@ -1,0 +1,155 @@
+body{
+    background-color: #F0F2F5;
+}
+
+#ana-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#barismanco{
+    min-width: 25rem;
+    max-width: 26rem;
+}
+
+
+#arkadas-container{
+    width:100%;
+    background-color: white;
+    margin-top:10rem;
+    
+}
+#arkadas-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.arkadas{
+    width: 10rem;
+    height: 12rem;
+    border-radius: 1rem 1rem 0 0;
+    
+    margin:0.2rem;
+    background-color: #1c0031;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+.arkadas img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+/**/
+
+#takim-container{
+    width:100%;
+    background-color: white;
+    margin-top:8rem;
+    
+}
+
+#takim-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.takim{
+    width: 22rem;
+    border-radius: 1rem;
+    height: 15rem;
+    margin:0.2rem;
+    background-color: #641EAA;
+    text-align: center;
+}
+
+.takim img{
+    width: 22rem;
+    border-radius: 1rem;
+    height: 12rem;
+}
+
+
+/*KULLANICI PROFİLİ AYARLARI*/
+
+#user-container{
+    
+    margin-top:10rem;
+    width: 55rem;
+    background-color: #1c0031;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-container img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 1rem;
+}
+
+#kisim1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45rem;
+    height: 15rem;
+    
+}
+
+#bilgiler{
+    margin-left: 2rem;
+}
+
+#konum{
+    text-transform: lowercase;
+}
+
+#kisim2{
+    width: 45rem;
+    max-height: 9rem;
+    
+    margin-bottom: 3rem;
+}
+#kisim3{
+    width: 55rem;
+    display: flex;
+    flex-direction:row ;
+    background-color: green;
+    
+    
+}
+
+.ilet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    padding:1rem;
+}
+
+#h1 {
+    background-color: wheat;
+}
+
+#h2{
+    background-color: blue;
+}
+
+#h3 {
+    background-color: pink;
+}
+
+.displayNone{
+    display: none;
+}

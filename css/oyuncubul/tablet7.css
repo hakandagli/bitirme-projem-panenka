@@ -1,0 +1,62 @@
+html{
+    font-size:9px;
+}
+
+#search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:0;
+}
+#ana-section{
+    flex-direction: column;
+    margin-top:3rem;
+}
+
+#form-section{
+    width: 100%;
+    border:none;
+    border-top:1rem solid green;
+    border-bottom:1rem solid green;
+    box-shadow:none;
+    margin:0;
+    margin-bottom:2.5rem;
+}
+
+#kısım1{
+    width:35rem;
+}
+
+#kısım2{
+    width:35rem;
+}
+
+
+
+#mevkiler{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mevki{
+    justify-content: center;
+    width:24%;
+}
+
+.player-container{
+    width:100%;
+    justify-content: center;
+    border:none;
+    box-shadow:none;
+}
+
+
+.player{
+    width:45%;
+    margin:0.3rem;
+}
+
+
+
+

@@ -1,0 +1,173 @@
+nav{
+    width: 100%;
+    background-color:#056a28;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#baslik{
+    font-size:4.5rem;
+    font-weight: bold;
+    color:white;
+}
+
+#nav-icon{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    transition: all .3s ease;
+    background-color:#056a28;
+    border:none;
+    color:white;
+}
+
+#nav-icon:hover{
+    border-radius: 50%;
+    border:3px solid white;
+}
+
+#nav-icon2{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    transition: all .3s ease;
+    border:none;
+    background-color: #056a28;
+    color:white;
+    
+}
+#nav-icon2:hover{
+    border:3px solid white;
+    border-radius: 50%;
+}
+
+
+#nav-container-1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-container-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all .3 ease;
+}
+
+#nav-container-2 a{
+    transition: all .2s ease;
+    border-radius: 1rem;
+}
+
+#nav-container-2 a:hover{
+    background-color: white;
+    color:#056a28;
+    
+}
+
+.nav-item{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0.8rem;
+    margin:0 0.8rem;
+}
+
+.telefon{
+    display: none;
+}
+.displayNone{
+    display: none;
+}
+
+.yan-yana{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert{
+    color:red;
+}
+
+
+@media(max-width:992px){
+    html{
+        font-size:10px;
+    }
+    #nav-container-2 a{
+        padding:0.3rem;
+    }
+}
+
+@media(max-width:769px){
+    html{
+        font-size:9px;
+    }
+
+    nav{
+        flex-direction:column;   
+    }
+    .telefon{
+        display:flex;
+    }
+
+    .masaustu{
+        display: none;
+    }
+
+    #nav-container-1{
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .telefon a{
+        font-size:2.5rem;
+    }
+    
+    #nav-container-2{
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-container-2 a{
+        font-size:2.1rem;
+    }
+
+    #nav-icon i{
+        font-size:2rem;
+    }
+
+    #nav-icon2 i{
+        font-size:2rem;
+    }
+    #nav-container-2.display-none{
+        display: none;
+    }
+
+    #navi.display-none{
+        display: none;
+    }
+    #navi2.display-none{
+        display: none;
+    }
+
+    .nav-item{
+        padding:0;
+        margin:0;
+    }
+    
+}
+
+@media(max-width:576px){
+    html{
+        font-size:8px;
+    }
+}

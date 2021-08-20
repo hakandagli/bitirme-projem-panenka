@@ -1,0 +1,49 @@
+/*Select Kısmı*/
+#select-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:8rem 0;
+    height: 40rem;
+}
+
+#select-container{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.select-item{
+    width:30%;
+    height:40rem;
+    text-align:center;
+    border-radius:3rem;
+    transition: all .3s ease;
+}
+
+.select-item:hover{
+    border:0.2rem solid black;
+    width: 32%;
+    height:42rem;
+}
+.select-baslik{
+    font-size:3rem;
+}
+#oyuncubul{
+    background-image: url(../../image/kralex2.jpg);
+    background-size:cover;
+    background-position: top;
+}
+
+#sahabul{
+    background-image: url(../../image/saha2.jpg);
+    background-size:cover;
+    background-position: top;
+}
+
+#rakipbul{
+    background-image: url(../../image/rakip3.jpg);
+    background-size:cover;
+    background-position: top;
+}

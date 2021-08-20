@@ -1,0 +1,12 @@
+html{
+    font-size:8px;
+}
+
+.player{
+    width: 25%;
+}
+
+.player img{
+    width:10rem;
+    height: 10rem;
+}

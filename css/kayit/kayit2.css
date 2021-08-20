@@ -1,0 +1,155 @@
+h1 a{
+    font-size:5rem;
+    color:#056a28;
+    font-weight: bold;
+    text-align: center;
+    
+    display: block;
+    padding:2rem;
+}
+
+#form-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:28%;
+    border:1px solid black;
+    border-radius: 1rem;
+    background-color:white;
+}
+
+#baslik{
+    font-size:3rem;
+    font-weight: bold;
+}
+hr{
+    background-color:black;
+   width: 50%;
+}
+#form-ana{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+}
+input, select,textarea{
+    margin-top:1rem;
+    padding:0.7rem;
+    font-size:1.6rem;
+    border-radius: 0.5rem;
+    border:0.1rem solid #056a28;
+    background-color:#f0f2f5;
+}
+
+textarea{
+    width: 99%;
+    resize:none;
+}
+
+input[type=checkbox],input[type="radio"]{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.margin-top-1{
+    margin-top:1.1rem;
+}
+
+.yaniyo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+}
+
+.yaniyo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 99%;
+    margin-bottom:2rem;
+}
+
+.yaniyo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+.yaniyo4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+
+.ayir{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ayir select,input[type="radio"]{
+    margin:0;
+}
+
+.ayir3{
+    display: flex;
+    flex-direction: column;
+}
+
+.ayir-2 select{
+    width: 33%;
+}
+
+.boyut-33{
+    display: inline-block;
+    width: 48%;
+}
+
+.radio{
+    font-size:1.9rem;
+    margin-top:1rem;
+}
+.mevkii{
+    font-size:1.9rem;
+}
+.btn{
+    font-size: 1.8rem;
+    padding:1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin:1.5rem 0;
+}
+.btn-1{
+    background-color: #056a28;
+    color:white;
+    border: 1px solid white;
+}
+
+.btn-1:hover{
+    color:#056a28;
+    background-color: white;
+    border:1px solid #056a28;
+}
+.etiket{
+    color:#056a28;
+    font-weight: bold;
+}
+
+.etiket-container{
+    padding:1rem 0;
+}
+
+

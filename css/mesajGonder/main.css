@@ -1,0 +1,60 @@
+
+
+#mesaj-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 17rem;
+    background-color: #E5DDD5;
+    padding-top: 3rem;
+}
+
+#mesajlar{
+    width: 40%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mesaj{
+    background-color: #dcf8c6;
+    max-width: 80%;
+    padding:1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mesaj.gonderici{
+    align-self: flex-end;
+}
+
+#mesaj-control{
+    width: 100%;
+    padding:0 10%;
+    position: fixed;
+   bottom: 1rem;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+}
+
+textarea{
+    width: 90%;
+    height: 5rem;
+    font-size: 2rem;
+    resize: none;
+}
+
+#gonder-button{
+    width: 10%;
+    height: 5rem;
+    font-size: 3rem;
+}

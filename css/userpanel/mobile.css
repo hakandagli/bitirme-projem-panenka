@@ -1,0 +1,27 @@
+html{
+    font-size:8px;
+}
+
+#select-section{
+    height:65vh;
+
+}
+#select-container{
+    flex-direction: column;
+    align-items:center;
+    width:90%;
+}
+
+.select-item{
+    width: 85%;
+    height:30%;
+    margin-bottom:1rem;
+}
+
+.select-item:hover{
+    border:none;
+    width: 85%;
+    height:30%;
+}
+
+

@@ -1,0 +1,19 @@
+#istek-container{
+    
+    width: 40%;
+}
+
+.istek-takim{
+    width: 80%;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom:0.3rem solid black;
+}
+
+.istek-takim img{
+    width:25rem;
+}

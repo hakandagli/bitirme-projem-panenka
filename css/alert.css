@@ -1,0 +1,9 @@
+.alert-red{
+    background-color: red;
+    color:white;
+    text-align: center;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    border-radius: 1rem;
+}

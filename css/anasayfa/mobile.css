@@ -1,0 +1,38 @@
+html{
+    font-size:8px;
+}
+
+#ana-container{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#slider{
+    width: 100%;
+}
+
+img{
+    box-shadow: none;
+}
+
+#login-form-container{
+    width: 85%;
+    align-self: center;
+    box-shadow: none;
+}
+
+input[type="text"],input[type="password"]{
+    padding:0.8rem;
+    font-size:2rem;
+}
+.form-group a{
+    font-size:2rem;
+}
+
+.btn{
+    font-size: 1.9rem;
+    padding:1.2rem;
+}
+
+
+
+

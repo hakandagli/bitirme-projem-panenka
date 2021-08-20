@@ -1,0 +1,12 @@
+html{
+    font-size:9px;
+}
+
+#nav-container{
+    flex-direction: column;
+}
+
+#nav-logo a{
+    font-size: 3.5rem;
+}
+

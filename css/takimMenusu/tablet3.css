@@ -1,0 +1,22 @@
+html{
+    font-size:9px;
+}
+
+
+
+#takim-list{
+    flex-direction: column;
+    align-items: center;
+   width: 35rem;
+    
+}
+
+#takim-container{
+    width: 35rem;
+    
+}
+
+#button-team{
+    padding-top:2rem;
+    padding-left:0;
+}

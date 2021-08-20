@@ -1,0 +1,127 @@
+
+
+#ana-section{
+    margin-top:5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#form-container{
+    width: 30rem;
+    border:0.2rem solid #CAF70A;
+    box-shadow:25px 25px 25px rgba(0,0,0,0.3);
+    border-radius:1rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:10rem;
+    margin-right:5rem;
+
+    color:black;
+}
+
+#bolgeler{
+    width: 25rem;
+}
+
+.sehir-item{
+    width: 100%;
+    padding:0.4rem;
+    margin-bottom:0.1rem;
+    
+}
+
+.tesis-tur-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tesis-tur{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0 0.7rem;
+}
+
+#yolcu{
+    display: flex;
+    flex-direction: row;
+}
+
+#arama{
+    width:100%;
+    padding:0.4rem;
+    font-size:1.6rem;
+    background-color:white;
+    border:0.1rem solid white;
+    color:#641EAA;
+    border-radius: 3rem;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+#arama:hover{
+    color:#056A28;
+    border:0.1rem solid #056A28;
+    background-color: white;
+}
+
+
+
+.yazi-ortala{
+    text-align:center;
+}
+
+
+.colorw{
+   
+}
+.mgb-1{
+    margin-bottom:1rem;
+}
+
+
+.hd1{
+    margin: 0 0.4rem;
+}
+
+.days{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.days input[type="radio"]{
+    display:inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+/**/
+#teams{
+    width: 53rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.team{
+    width: 25rem;
+    text-align: center;
+    background-color: #641EAA;
+    color:black;
+    border-radius: 1rem;
+    margin-bottom:1rem;
+}
+
+.team img{
+    width: 25rem;
+    height: 14rem;
+    border-radius: 1rem;
+}
+

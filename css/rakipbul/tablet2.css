@@ -1,0 +1,37 @@
+html{
+    font-size:9px;
+}
+
+#ana-section{
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-container{
+    width: 100%;
+    border:none;
+    border-top:1rem solid green;
+    border-bottom:1rem solid green;
+    box-shadow:none;
+    margin:0;
+    margin-bottom:2.5rem;
+}
+
+.sehir-item{
+    margin-bottom:0.6rem;
+}
+
+#bolgeler{
+    width: 35rem;
+}
+
+/**/
+#teams{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team{
+    margin-bottom: 2rem;
+}

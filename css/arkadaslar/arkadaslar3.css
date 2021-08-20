@@ -1,0 +1,85 @@
+#user-friend{
+    width: 100%;
+    
+}
+
+#player-container{
+    width:100%;
+    border-right:0.3rem solid #056A28;
+    border-bottom:0.3rem solid #056A28;
+    border-radius:1rem;
+    box-shadow:25px 25px 25px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    background-color: #DAEADD;
+
+}
+
+#player-container.displayNone{
+    display: none;
+}
+
+#player-container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#hakanmero{
+    width: 30%;
+}
+
+#istek-container{
+    width: 100%;
+   
+    border-top:.3rem solid black;
+}
+
+.istek-kafa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.istek-atanlar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butonlar5{
+    padding-right:2rem;
+}
+
+#hakanmero.displayNone{
+    display: none;
+}
+
+.player{
+    width:10%;
+    margin:1rem;
+    height: 18rem;
+    background-color:#DAEADD;
+    border:0.2rem solid #056A28;
+    color:#056A28;
+    border-radius: 0.6rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.mevki-list-2{
+    overflow: hidden;
+}
+

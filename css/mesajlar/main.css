@@ -1,0 +1,32 @@
+#mesaj-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    
+    margin:auto;
+    padding-top:3rem;
+}
+
+
+.mesaj{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    border-bottom: .1rem solid black;
+}
+
+.mesaj img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.mesaj-gonderen{
+    width: 85%;
+    text-align: center;
+}
